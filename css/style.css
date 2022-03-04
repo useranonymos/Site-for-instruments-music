@@ -1,4 +1,9 @@
-body {
+body{
+	overflow-x: hidden;
+}
+
+
+.b2 {
 	margin: 0;
 	height: 100vh;
 	display: flex;
@@ -200,3 +205,22 @@ a{
 
 
   }
+
+footer{
+	  height: 300px;
+	  width: 100%;
+	  background-color: #000000;
+	  background: linear-gradient(to right bottom, rgb(160, 160, 160), rgb(53, 53, 53));
+	  margin-top: 20px;
+	  display:flex ;
+	  align-items: center;
+	  flex-direction: column;
+}
+
+.container{
+	height: 300px;
+	width: 300px;
+
+
+
+}
